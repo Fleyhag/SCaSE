@@ -8,17 +8,13 @@ It is specifically designed to extract sample-level material data from materials
 This repository provides a customized pipeline for extracting structured material data directly from scientific publications. The extracted data can be used for downstream tasks such as materials informatics, machine learning, and database construction.
 
 📁 Directory Structure
+data/100_labeled_Papers.zip  439 samples from 100 labeled alloy papers
+data/example_literature/     Example input: full-text HTML from a ScienceDirect paper
+web_extractor/               Chrome extension for downloading full-text HTML
+config.yaml                  Configuration file for model and API key
+prompt.py                    prompts used in SCaSE
+run.py                       Main script to run the extraction pipeline
 
-├── data/
-│   ├── 100_labeled_Papers.zip  # 439 samples from 100 labeled alloy papers
-│   ├── example_literature/     # Example input: full-text HTML from a ScienceDirect paper
-│   └── output/                 # Output folder for extracted data (JSON format)
-├── web_extractor/              # Chrome extension for downloading full-text HTML
-├── config.yaml                 # Configuration file for model and API key
-├── prompt.py                   # prompts used in SCaSE
-├── run.py                      # Main script to run the extraction pipeline
-├── README.md
-└── requirements.txt
 
 ⚙️ Setup & Usage
 1. Prerequisites
