@@ -1,0 +1,55 @@
+{
+    "title": "Full length articleThe influence of aging temperature and aging time on the mechanical and tribological properties of selective laser melted maraging 18Ni-300 steel",
+    "doi": "j.addma.2018.06.005",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S2214860418302999?via%3Dihub",
+    "sample_id": "j.addma.2018.06.005_1",
+    "sample_name": "As-fabricated",
+    "composition_name": null,
+    "alloy_type": null,
+    "other_process": "none",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "none",
+            "content": null
+        }
+    ],
+    "printing_parameter": {
+        "equipment": "EOS M290 SLM system (EOS GmbH, Germany)",
+        "laser_power": "285 W",
+        "beam_current": "none",
+        "accelerating_voltage": "none",
+        "scan_speed": "960 mm/s",
+        "layer_thickness": "40 μm",
+        "hatch_spacing": "110 μm",
+        "rotation_angle": "67°",
+        "scan_strategy": "zigzag"
+    },
+    "tensile_condition": {
+        "tensile_standard": "ASTM E8",
+        "tensile_temperature": "Room temperature",
+        "tensile_speed": "10 mm/min",
+        "tensile_strategy": "Constant crosshead speed",
+        "sample_shape": "Dog-bone, 25 mm gauge length, 5 mm gauge width, 2.2 mm thickness"
+    },
+    "microstructure": {
+        "microscope": [
+            "Fig. 3.Fig. 4"
+        ],
+        "EBSD_image": [
+            "none"
+        ],
+        "phase_fraction": [
+            "α phase: 98.4%, γ phase: 1.6%"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 8.",
+        "yield_strength": "none",
+        "ultimate_strength": "none",
+        "fracture_elongation": "none",
+        "uniform_elongation": "none",
+        "fracture_toughness": "none"
+    },
+    "thermal_process": []
+}

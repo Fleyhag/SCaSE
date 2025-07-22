@@ -1,0 +1,99 @@
+{
+    "title": "Correlation between the microstructure and hydrogen embrittlement resistance in a precipitation-hardened martensitic stainless steel",
+    "doi": "j.corsci.2021.109260",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S0010938X21000263?via%3Dihub",
+    "sample_id": "j.corsci.2021.109260_4",
+    "sample_name": "482A-4-HC",
+    "composition_name": "composition_1",
+    "alloy_type": "steel",
+    "other_process": "NONE",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "C",
+            "content": "0.001%"
+        },
+        {
+            "element": "Cr",
+            "content": "11.2%"
+        },
+        {
+            "element": "Ni",
+            "content": "11.3%"
+        },
+        {
+            "element": "Mo",
+            "content": "1.0%"
+        },
+        {
+            "element": "Ti",
+            "content": "1.6%"
+        },
+        {
+            "element": "Si",
+            "content": "0.05%"
+        },
+        {
+            "element": "Al",
+            "content": "0.1%"
+        },
+        {
+            "element": "Fe",
+            "content": "bal."
+        }
+    ],
+    "printing_parameter": {},
+    "tensile_condition": {
+        "tensile_standard": "ASTM G129-00",
+        "tensile_temperature": "Room temperature",
+        "tensile_speed": "0.01 mm/s",
+        "tensile_direction": null,
+        "sample_shape": "dog-bone shape specimens with a diameter of 5 mm and a gauge length of 30 mm"
+    },
+    "microstructure": {
+        "microscope": [
+            "Fig. 9",
+            "Fig. 13"
+        ],
+        "EBSD_image": [
+            "Fig. 10",
+            "Fig. 12"
+        ],
+        "phase_fraction": [
+            "reversed austenite,8.3 vol.%",
+            "martensite,92.7 vol.%",
+            "η-Ni3Ti"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 1",
+        "yield_strength": "NONE",
+        "ultimate_strength": "1677.07 MPa",
+        "fracture_elongation": "0%",
+        "uniform_elongation": "NONE",
+        "fracture_toughness": "NONE"
+    },
+    "thermal_process": [
+        {
+            "temperature": "983 ℃",
+            "time": "1 h",
+            "cooling_method": "water quenching",
+            "pressure": "NONE",
+            "atmosphere": "NONE"
+        },
+        {
+            "temperature": "-73 ℃",
+            "time": "8 h",
+            "cooling_method": "NONE",
+            "pressure": "NONE",
+            "atmosphere": "NONE"
+        },
+        {
+            "temperature": "482 ℃",
+            "time": "4 h",
+            "cooling_method": "NONE",
+            "pressure": "NONE",
+            "atmosphere": "NONE"
+        }
+    ]
+}

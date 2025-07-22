@@ -1,0 +1,83 @@
+{
+    "title": "Tailoring hierarchical microstructures to improve the strength and plasticity of a laser powder bed fusion additively manufactured Ti-6Al-4V alloy",
+    "doi": "j.addma.2023.103603",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S2214860423002166?via%3Dihub",
+    "sample_id": "j.addma.2023.103603_1",
+    "sample_name": "as-built",
+    "composition_name": "composition_1",
+    "alloy_type": "titanium",
+    "other_process": "none",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "Al",
+            "content": "6.3%"
+        },
+        {
+            "element": "V",
+            "content": "3.98%"
+        },
+        {
+            "element": "Fe",
+            "content": "0.20%"
+        },
+        {
+            "element": "O",
+            "content": "0.08%"
+        },
+        {
+            "element": "C",
+            "content": "0.015%"
+        },
+        {
+            "element": "N",
+            "content": "0.02%"
+        },
+        {
+            "element": "H",
+            "content": "0.007%"
+        },
+        {
+            "element": "Ti",
+            "content": "bal."
+        }
+    ],
+    "printing_parameter": {
+        "equipment": "BLT-S200",
+        "laser_power": "300 W",
+        "beam_current": "none",
+        "accelerating_voltage": "none",
+        "scan_speed": "1200 mm/s",
+        "layer_thickness": "160 µm",
+        "hatch_spacing": "100 µm",
+        "rotation_angle": "67°",
+        "scan_strategy": "meander “zig-zag”"
+    },
+    "tensile_condition": {
+        "tensile_standard": "none",
+        "tensile_temperature": "Room temperature",
+        "tensile_speed": "10−3/s",
+        "tensile_strategy": "Constant crosshead speed",
+        "sample_shape": "Gauge diameter of 3 mm and a length of 15 mm"
+    },
+    "microstructure": {
+        "microscope": [
+            "Fig. 1"
+        ],
+        "EBSD_image": [
+            "Fig. 1"
+        ],
+        "phase_fraction": [
+            "α': 1, Fig. 3(b)"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 2",
+        "yield_strength": "none",
+        "ultimate_strength": "1274 ± 2 MPa",
+        "fracture_elongation": "7.5 ± 0.4 %",
+        "uniform_elongation": "none",
+        "fracture_toughness": "none"
+    },
+    "thermal_process": []
+}

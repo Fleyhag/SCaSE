@@ -1,0 +1,78 @@
+{
+    "title": "Full Length ArticleAnalysis of the strength–ductility balance of dual-phase steel using a combination of generative adversarial networks and finite element method",
+    "doi": "j.commatsci.2024.113143",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S0927025624003641?via%3Dihub",
+    "sample_id": "j.commatsci.2024.113143_3",
+    "sample_name": "Microstructure A",
+    "composition_name": "DP2",
+    "alloy_type": "steel",
+    "other_process": "Hot-rolled in the austenite region",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "C",
+            "content": "0.10%"
+        },
+        {
+            "element": "Si",
+            "content": "0.50%"
+        },
+        {
+            "element": "Mn",
+            "content": "1.99%"
+        },
+        {
+            "element": "P",
+            "content": "<0.001%"
+        },
+        {
+            "element": "S",
+            "content": "0.0010%"
+        },
+        {
+            "element": "Al",
+            "content": "0.030%"
+        },
+        {
+            "element": "N",
+            "content": "0.0021%"
+        },
+        {
+            "element": "Fe",
+            "content": "bal."
+        }
+    ],
+    "printing_parameter": {},
+    "tensile_condition": {
+        "tensile_standard": "NONE",
+        "tensile_temperature": "Room temperature",
+        "tensile_speed": "NONE",
+        "tensile_direction": null,
+        "sample_shape": "We performed FEM analysis under the 2D plane strain conditions using commercial software (Femtet, Murata Software) to computationally investigate the tensile properties of the generated DP steel microstructures. The boundary conditions of the model are shown in Fig. 3(b); the left side of the model was fixed in the x-direction, and a displacement of approximately 15 % strain in the x-direction was applied on the opposite side.; ['Fig. 3']"
+    },
+    "microstructure": {
+        "microscope": [],
+        "EBSD_image": [],
+        "phase_fraction": [
+            "ferrite (α),Traces",
+            "martensite (α'),23% - 43%"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 9",
+        "yield_strength": "NONE",
+        "ultimate_strength": "NONE",
+        "fracture_elongation": "NONE",
+        "uniform_elongation": "NONE",
+        "fracture_toughness": "NONE"
+    },
+    "thermal_process": [
+        {
+            "temperature": "1473 K",
+            "time": "1 h",
+            "cooling_method": "air-cooled to 923 K, followed by water-cooling to room temperature (298 ± 2 K)",
+            "pressure": "NONE",
+            "atmosphere": "NONE"
+        }
+    ]
+}

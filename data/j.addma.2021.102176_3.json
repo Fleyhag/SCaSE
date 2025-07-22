@@ -1,0 +1,102 @@
+{
+    "title": "Research PaperLaser powder bed fusion of 17–4 PH stainless steel: A comparative study on the effect of heat treatment on the microstructure evolution and mechanical properties",
+    "doi": "j.addma.2021.102176",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S2214860421003390?via%3Dihub",
+    "sample_id": "j.addma.2021.102176_3",
+    "sample_name": "HIP + aging (Powder A)",
+    "composition_name": "Powder A (SLM Solution)",
+    "alloy_type": "steel",
+    "other_process": "none",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "C",
+            "content": "0.07%"
+        },
+        {
+            "element": "Cr",
+            "content": "17.7%"
+        },
+        {
+            "element": "Cu",
+            "content": "3.3%"
+        },
+        {
+            "element": "Ni",
+            "content": "4.2%"
+        },
+        {
+            "element": "Mn",
+            "content": "1%"
+        },
+        {
+            "element": "N",
+            "content": "0.1%"
+        },
+        {
+            "element": "Nb",
+            "content": "0.14%"
+        },
+        {
+            "element": "Si",
+            "content": "0.07%"
+        },
+        {
+            "element": "Fe",
+            "content": "bal."
+        }
+    ],
+    "printing_parameter": {
+        "equipment": "none",
+        "laser_power": "200 W (interior region), 100 W (border region)",
+        "beam_current": "none",
+        "accelerating_voltage": "none",
+        "scan_speed": "820 mm/s (interior region), 400 mm/s (border region)",
+        "layer_thickness": "30 μm",
+        "hatch_spacing": "108 μm",
+        "rotation_angle": "33° after each layer",
+        "scan_strategy": "Stripes, 10 mm wide"
+    },
+    "tensile_condition": {
+        "tensile_standard": "ASTMD‐638–IV",
+        "tensile_temperature": "Room temperature",
+        "tensile_speed": "none",
+        "tensile_strategy": "none",
+        "sample_shape": "33 (length) × 6 (width) × 1.0 (thickness) mm, Fig. none"
+    },
+    "microstructure": {
+        "microscope": [
+            "Fig. 8"
+        ],
+        "EBSD_image": [
+            "Fig. 7"
+        ],
+        "phase_fraction": [
+            "Martensite: 96.5%-98%, Retained Austenite: 2%-3.5%"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 13",
+        "yield_strength": "1170 MPa",
+        "ultimate_strength": "1250-1400 MPa",
+        "fracture_elongation": "7-9%",
+        "uniform_elongation": "none",
+        "fracture_toughness": "none"
+    },
+    "thermal_process": [
+        {
+            "temperature": "1150 °C",
+            "time": "4 h",
+            "cooling_method": "none",
+            "pressure": "100 MPa",
+            "atmosphere": "none"
+        },
+        {
+            "temperature": "480 °C",
+            "time": "1 h",
+            "cooling_method": "none",
+            "pressure": "none",
+            "atmosphere": "none"
+        }
+    ]
+}

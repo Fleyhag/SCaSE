@@ -1,0 +1,76 @@
+{
+    "title": "Full length articleThe dual role of TRIP effect on ductility and toughness of a medium Mn steel",
+    "doi": "j.actamat.2022.118629",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S1359645422010047?via%3Dihub",
+    "sample_id": "j.actamat.2022.118629_2",
+    "sample_name": "IA",
+    "composition_name": "Fe-0.2C-9.3Mn-2Al",
+    "alloy_type": "steel",
+    "other_process": "cold-rolled for 50% thickness reduction",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "Fe",
+            "content": "bal."
+        },
+        {
+            "element": "C",
+            "content": "0.2%"
+        },
+        {
+            "element": "Mn",
+            "content": "9.3%"
+        },
+        {
+            "element": "Al",
+            "content": "2%"
+        }
+    ],
+    "printing_parameter": {
+        "equipment": "none",
+        "laser_power": "none",
+        "beam_current": "none",
+        "accelerating_voltage": "none",
+        "scan_speed": "none",
+        "layer_thickness": "none",
+        "hatch_spacing": "none",
+        "rotation_angle": "none",
+        "scan_strategy": "none"
+    },
+    "tensile_condition": {
+        "tensile_standard": "none",
+        "tensile_temperature": "Room temperature",
+        "tensile_speed": "5 × 10− 4/s",
+        "tensile_strategy": "Constant crosshead speed",
+        "sample_shape": "12 × 4 × 2 mm (length × width × thickness)"
+    },
+    "microstructure": {
+        "microscope": [
+            "Fig. 2"
+        ],
+        "EBSD_image": [
+            "Fig. 2",
+            "Fig. 5"
+        ],
+        "phase_fraction": [
+            "Ferrite: 30%, Austenite: 70%"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 3",
+        "yield_strength": "750 MPa",
+        "ultimate_strength": "none",
+        "fracture_elongation": "none",
+        "uniform_elongation": "25%",
+        "fracture_toughness": "73.9 MPa√m"
+    },
+    "thermal_process": [
+        {
+            "temperature": "675 °C",
+            "time": "60 min",
+            "cooling_method": "water-quenching",
+            "pressure": "none",
+            "atmosphere": "none"
+        }
+    ]
+}

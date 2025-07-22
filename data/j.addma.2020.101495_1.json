@@ -1,0 +1,82 @@
+{
+    "title": "Microstructural evolution and mechanical properties of a newly designed steel fabricated by laser powder bed fusion",
+    "doi": "j.addma.2020.101495",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S2214860420308678?via%3Dihub",
+    "sample_id": "j.addma.2020.101495_1",
+    "sample_name": "as-printed sample",
+    "composition_name": "M789 steel (ICP Tested)",
+    "alloy_type": "steel",
+    "other_process": "NONE",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "C",
+            "content": "0.010%"
+        },
+        {
+            "element": "Cr",
+            "content": "12.20%"
+        },
+        {
+            "element": "Ni",
+            "content": "10.2%"
+        },
+        {
+            "element": "Mo",
+            "content": "1.03%"
+        },
+        {
+            "element": "Al",
+            "content": "0.51%"
+        },
+        {
+            "element": "Ti",
+            "content": "1.02%"
+        },
+        {
+            "element": "Fe",
+            "content": "bal."
+        }
+    ],
+    "printing_parameter": {
+        "equipment": "EOS M290 LPBF machine (EOS, Krailling, Germany)",
+        "laser_power": "NONE",
+        "beam_current": "NONE",
+        "accelerating_voltage": "NONE",
+        "scan_speed": "NONE",
+        "layer_thickness": "NONE",
+        "hatch_spacing": "NONE",
+        "rotation_angle": "50°",
+        "scan_strategy": "zigzag stripe scanning strategy"
+    },
+    "tensile_condition": {
+        "tensile_standard": "ASTM E8",
+        "tensile_temperature": "room temperature",
+        "tensile_speed": "NONE",
+        "tensile_direction": null,
+        "sample_shape": "86 mm in length and 14 mm in diameter"
+    },
+    "microstructure": {
+        "microscope": [
+            "Fig. 2",
+            "Fig. 3"
+        ],
+        "EBSD_image": [
+            "Fig. 4"
+        ],
+        "phase_fraction": [
+            "martensite,major phase",
+            "austenite,traces",
+            "none detected"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 10",
+        "yield_strength": "843±17 MPa (BD), 795±32 MPa (TD)",
+        "ultimate_strength": "1019±13 MPa (BD), 1070±34 MPa (TD)",
+        "fracture_elongation": "16±2% (BD), 17±3% (TD)",
+        "uniform_elongation": "NONE",
+        "fracture_toughness": "143±6 J (BD), 184±13 J (TD)"
+    },
+    "thermal_process": []
+}

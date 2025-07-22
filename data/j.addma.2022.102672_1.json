@@ -1,0 +1,93 @@
+{
+    "title": "Research paperHomogenization timing effect on microstructure and precipitation strengthening of 17–4PH stainless steel fabricated by laser powder bed fusion",
+    "doi": "j.addma.2022.102672",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S221486042200077X?via%3Dihub",
+    "sample_id": "j.addma.2022.102672_1",
+    "sample_name": "AB",
+    "composition_name": "17–4PH",
+    "alloy_type": "steel",
+    "other_process": "mechanical polishing before tensile tests",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "Cr",
+            "content": "15.84%"
+        },
+        {
+            "element": "Ni",
+            "content": "4.55%"
+        },
+        {
+            "element": "Cu",
+            "content": "3.87%"
+        },
+        {
+            "element": "Nb",
+            "content": "0.37%"
+        },
+        {
+            "element": "Mn",
+            "content": "0.32%"
+        },
+        {
+            "element": "Si",
+            "content": "0.36%"
+        },
+        {
+            "element": "C",
+            "content": "0.019%"
+        },
+        {
+            "element": "O",
+            "content": "0.05%"
+        },
+        {
+            "element": "N",
+            "content": "0.01%"
+        },
+        {
+            "element": "Fe",
+            "content": "bal."
+        }
+    ],
+    "printing_parameter": {
+        "equipment": "EOS 280 System",
+        "laser_power": "195 W",
+        "beam_current": "none",
+        "accelerating_voltage": "none",
+        "scan_speed": "900 mm/s",
+        "layer_thickness": "40 µm",
+        "hatch_spacing": "100 µm",
+        "rotation_angle": "67°",
+        "scan_strategy": "none"
+    },
+    "tensile_condition": {
+        "tensile_standard": "ASTM E8",
+        "tensile_temperature": "Room temperature",
+        "tensile_speed": "1 mm/min",
+        "tensile_strategy": "Horizontal, Constant crosshead speed",
+        "sample_shape": "Dog-bone, 32 mm gauge length, 5 mm thickness, 6 mm width"
+    },
+    "microstructure": {
+        "microscope": [
+            "Fig. 3.Fig. 5",
+            "Fig. 6."
+        ],
+        "EBSD_image": [
+            "Fig. 3",
+            "Fig. 4"
+        ],
+        "phase_fraction": [
+            "δ-ferrite: 36.7% ± 4.3%, martensite，ε-Cu，oxides"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 10",
+        "yield_strength": "784 MPa",
+        "ultimate_strength": "922 MPa",
+        "fracture_elongation": "16.7%",
+        "uniform_elongation": "none",
+        "fracture_toughness": "139.88 MPa√m"
+    },
+    "thermal_process": []
+}

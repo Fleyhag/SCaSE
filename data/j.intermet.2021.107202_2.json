@@ -1,0 +1,71 @@
+{
+    "title": "Temperature- and strain-dependent thermally-activated deformation mechanism of a ferrous medium-entropy alloy",
+    "doi": "j.intermet.2021.107202",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S0966979521001187?via%3Dihub",
+    "sample_id": "j.intermet.2021.107202_2",
+    "sample_name": "FeMEA_77K",
+    "composition_name": "Fe60Co15Ni15Cr10",
+    "alloy_type": "FeMEA",
+    "other_process": "The homogenized ingot was cold-rolled at 298 K from 7 to 1.5 mm with a thickness reduction ratio of 78.6%. The annealed specimens were mechanically polished with 600, 800, and 1200 grit SiC abrasive papers to remove the oxide layer and surface roughness.",
+    "样品状态(删除D，新增A)": null,
+    "composition_content": [
+        {
+            "element": "Fe",
+            "content": "60%"
+        },
+        {
+            "element": "Co",
+            "content": "15%"
+        },
+        {
+            "element": "Ni",
+            "content": "15%"
+        },
+        {
+            "element": "Cr",
+            "content": "10%"
+        }
+    ],
+    "printing_parameter": {},
+    "tensile_condition": {
+        "tensile_standard": "NONE",
+        "tensile_temperature": "-196°C",
+        "tensile_speed": "10− 3 s− 1",
+        "tensile_direction": null,
+        "sample_shape": "NONE"
+    },
+    "microstructure": {
+        "microscope": [],
+        "EBSD_image": [
+            "Fig. 3"
+        ],
+        "phase_fraction": [
+            "γ (austenite),Initial dominant phase",
+            "α' (martensite),Generated during deformation"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 1",
+        "yield_strength": "383±36 MPa",
+        "ultimate_strength": "1357±30 MPa",
+        "fracture_elongation": "63.5±0.55%",
+        "uniform_elongation": "NONE",
+        "fracture_toughness": "NONE"
+    },
+    "thermal_process": [
+        {
+            "temperature": "1373 K",
+            "time": "6 h",
+            "cooling_method": "water quenching",
+            "pressure": "NONE",
+            "atmosphere": "NONE"
+        },
+        {
+            "temperature": "1073 K",
+            "time": "1 h",
+            "cooling_method": "water quenching",
+            "pressure": "NONE",
+            "atmosphere": "argon"
+        }
+    ]
+}

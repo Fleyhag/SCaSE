@@ -1,0 +1,105 @@
+{
+    "title": "Tensile properties of modified 9Cr-1Mo steel by shear punch testing and correlation with microstructures",
+    "doi": "j.ijpvp.2011.07.001",
+    "ref": "https://www.sciencedirect.com/science/article/pii/S0308016111000810?via%3Dihub",
+    "sample_id": "j.ijpvp.2011.07.001_4",
+    "sample_name": "mod 9Cr-1Mo steel soaked at 1273 K",
+    "composition_name": "modified 9Cr-1Mo steel",
+    "alloy_type": "steel",
+    "other_process": "removing the oxidized and decarburized layers",
+    "样品状态(删除D，新增A)": "D",
+    "composition_content": [
+        {
+            "element": "C",
+            "content": "0.096%"
+        },
+        {
+            "element": "Si",
+            "content": "0.32%"
+        },
+        {
+            "element": "Mn",
+            "content": "0.46%"
+        },
+        {
+            "element": "P",
+            "content": "0.012%"
+        },
+        {
+            "element": "S",
+            "content": "0.006%"
+        },
+        {
+            "element": "Cr",
+            "content": "8.72%"
+        },
+        {
+            "element": "Mo",
+            "content": "0.90%"
+        },
+        {
+            "element": "Ni",
+            "content": "0.1%"
+        },
+        {
+            "element": "N",
+            "content": "0.051%"
+        },
+        {
+            "element": "Nb",
+            "content": "0.08%"
+        },
+        {
+            "element": "V",
+            "content": "0.22%"
+        },
+        {
+            "element": "Fe",
+            "content": "bal."
+        }
+    ],
+    "printing_parameter": {},
+    "tensile_condition": {
+        "tensile_standard": "NONE",
+        "tensile_temperature": "298 K",
+        "tensile_speed": "0.03 mm/min",
+        "tensile_direction": null,
+        "sample_shape": "Cylindrical tensile specimens of 26 mm gauge length and 4 mm diameter; []"
+    },
+    "microstructure": {
+        "microscope": [
+            "Fig. 8",
+            "Fig. 11"
+        ],
+        "EBSD_image": [],
+        "phase_fraction": [
+            "α',Increased",
+            "M23C6",
+            "MX"
+        ]
+    },
+    "tensile_property": {
+        "stress_strain_curve": "Fig. 2",
+        "yield_strength": "NONE",
+        "ultimate_strength": "NONE",
+        "fracture_elongation": "NONE",
+        "uniform_elongation": "NONE",
+        "fracture_toughness": "NONE"
+    },
+    "thermal_process": [
+        {
+            "temperature": "1273 K",
+            "time": "300 s",
+            "cooling_method": "oil quenching",
+            "pressure": "NONE",
+            "atmosphere": "NONE"
+        },
+        {
+            "temperature": "1033 K",
+            "time": "1 h",
+            "cooling_method": "NONE",
+            "pressure": "NONE",
+            "atmosphere": "NONE"
+        }
+    ]
+}
