@@ -32,8 +32,6 @@ Your OpenAI API key
 3. Run the Pipeline
 To extract data from literature:
 
-bash
-深色版本
 python run.py
 The extracted data will be saved in data/output/ in JSON format.
 
