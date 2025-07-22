@@ -1,0 +1,210 @@
+#x-plugin-article {
+  padding: 30px 30px 60px 30px;
+}
+
+#x-plugin-article .math svg {
+  display: none;
+}
+
+#x-plugin-article .groups {
+  overflow: visible;
+}
+
+#x-plugin-article .figure {
+  text-align: center;
+}
+
+#x-plugin-article .x-plugin-clicked, #x-plugin-article .x-plugin-marked {
+  border: dashed 5px #666;
+}
+
+#x-plugin-article .x-plugin-clicked table, #x-plugin-article .x-plugin-marked table {
+  background-color: #C8C8C8;
+}
+
+.x-plugin-marked, .x-plugin-text-marked {
+  position: relative;
+}
+.x-plugin-text-marked {
+  border-radius: 5px;
+  font-style: normal;
+  cursor: pointer;
+}
+.x-plugin-marked:before, .x-plugin-text-marked:before {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  z-index: 999;
+  background-color: #333;
+  color: #FFF;
+  padding: 2px 12px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.x-plugin-text-marked:before {
+  display: none;
+  top: -30px;
+}
+
+.x-plugin-text-marked:hover:before {
+  display: block;
+}
+
+#x-plugin-article .x-plugin-marked[data-mark-type='prescription'] {
+  border-color: #007BFF;
+}
+#x-plugin-article .x-plugin-marked[data-mark-type='prescription']:before, #x-plugin-article .x-plugin-text-marked[data-mark-type='prescription']:before {
+  content: "成分";
+  background-color: #007BFF;
+}
+#x-plugin-article .x-plugin-text-marked[data-mark-type='prescription'] {
+  background-color: #94BEFF;
+  box-shadow: 0 0 10px #94BEFF;
+}
+
+#x-plugin-article .x-plugin-marked[data-mark-type='size'] {
+  border-color: #20C997;
+}
+#x-plugin-article .x-plugin-marked[data-mark-type='size']:before, #x-plugin-article .x-plugin-text-marked[data-mark-type='size']:before {
+  content: "试样尺寸";
+  background-color: #20C997;
+}
+#x-plugin-article .x-plugin-text-marked[data-mark-type='size'] {
+  background-color: #A7E6CD;
+  box-shadow: 0 0 10px #A7E6CD;
+}
+
+#x-plugin-article .x-plugin-marked[data-mark-type='equipment'] {
+  border-color: #6F42C1;
+}
+#x-plugin-article .x-plugin-marked[data-mark-type='equipment']:before, #x-plugin-article .x-plugin-text-marked[data-mark-type='equipment']:before {
+  content: "测试设备信息";
+  background-color: #6F42C1;
+}
+#x-plugin-article .x-plugin-text-marked[data-mark-type='equipment'] {
+  background-color: #B8A2E1;
+  box-shadow: 0 0 10px #B8A2E1;
+}
+
+#x-plugin-article .x-plugin-marked[data-mark-type='process'] {
+  border-color: #E83E8C;
+}
+#x-plugin-article .x-plugin-marked[data-mark-type='process']:before, #x-plugin-article .x-plugin-text-marked[data-mark-type='process']:before {
+  content: "处理工艺";
+  background-color: #E83E8C;
+}
+#x-plugin-article .x-plugin-text-marked[data-mark-type='process'] {
+  background-color: #F4A2C6;
+  box-shadow: 0 0 10px #F4A2C6;
+}
+
+#x-plugin-article .x-plugin-marked[data-mark-type='microstructure'] {
+  border-color: #FF9800;
+}
+#x-plugin-article .x-plugin-marked[data-mark-type='microstructure']:before, #x-plugin-article .x-plugin-text-marked[data-mark-type='microstructure']:before {
+  content: "组织";
+  background-color: #FF9800;
+}
+#x-plugin-article .x-plugin-text-marked[data-mark-type='microstructure'] {
+  background-color: #FFCD99;
+  box-shadow: 0 0 10px #FFCD99;
+}
+
+#x-plugin-article .x-plugin-marked[data-mark-type='performance'] {
+  border-color: #FF6F61;
+}
+#x-plugin-article .x-plugin-marked[data-mark-type='performance']:before, #x-plugin-article .x-plugin-text-marked[data-mark-type='performance']:before {
+  content: "力学性能";
+  background-color: #FF6F61;
+}
+#x-plugin-article .x-plugin-text-marked[data-mark-type='performance'] {
+  background-color: #FFB9B4;
+  box-shadow: 0 0 10px #FFB9B4;
+}
+
+#x-plugin-aside {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  background-color: #EEE;
+  display: flex;
+  align-items: center;
+  z-index: 999999;
+  box-shadow: #666 0 0 12px;
+  border-top: solid 1px #666;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+#x-plugin-aside button {
+  padding: 5px 15px;
+  background-color: #666;
+  color: #FFF;
+}
+
+#x-plugin-aside button:hover {
+  border-style: dotted;
+}
+
+#x-plugin-aside .x-plugin-btn-selected {
+  background-color: #FFF;
+  color: #000;
+}
+
+#x-plugin-tool {
+  position: absolute;
+  background: linear-gradient(to right, #888, #DDD);
+  width: 600px;
+  height: 50px;
+  padding: 0 20px;
+  display: none;
+  z-index: 99;
+  font-size: 16px;
+}
+
+#x-plugin-tool .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+#x-plugin-tool .wrapper label {
+  color: #FFF;
+  font-weight: bold;
+}
+
+#x-plugin-tool button {
+  background-color: #FFF;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+#x-plugin-tool button:hover {
+  color: #FFF;
+  background-color: #444;
+}
+
+#x-plugin-tool .x-plugin-tool-btn[data-type='prescription']:hover {
+  background-color: #007BFF;
+}
+#x-plugin-tool .x-plugin-tool-btn[data-type='size']:hover {
+  background-color: #20C997;
+}
+#x-plugin-tool .x-plugin-tool-btn[data-type='equipment']:hover {
+  background-color: #6F42C1;
+}
+#x-plugin-tool .x-plugin-tool-btn[data-type='process']:hover {
+  background-color: #E83E8C;
+}
+#x-plugin-tool .x-plugin-tool-btn[data-type='microstructure']:hover {
+  background-color: #FF9800;
+}
+#x-plugin-tool .x-plugin-tool-btn[data-type='performance']:hover {
+  background-color: #FF6F61;
+}

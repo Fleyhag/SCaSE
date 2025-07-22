@@ -1,0 +1,10 @@
+paper_dir: data\example_literature # the the code will iterate through all the literature sub-directories in this dir
+sample_dir: data\output # the code will save the extracted samples in json format in this dir
+log_dir: data\log
+llm_config:
+  model: "qwen-plus" # choose a model
+  api_key: "xxx" # your api key
+  url: "https://dashscope.aliyuncs.com/compatible-mode/v1" # choose a url
+  temperature: 0.3
+  n: 1
+  top_p: 0.5

@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "材料文献助手",
+  "version": "1.0.0",
+  "description": "成分-组织-性能数据提取",
+  "icons": {
+    "16": "images/favicon.ico",
+    "32": "images/favicon.ico",
+    "48": "images/favicon.ico",
+    "128": "images/favicon.ico"
+  },
+  "permissions": [
+    "contextMenus",
+    "notifications",
+    "tabs",
+    "activeTab",
+    "storage",
+    "downloads",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "html/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/jquery-3.7.1.min.js", "js/content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*.png", "css/*.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "homepage_url": "https://www.zhejianglab.cn"
+}

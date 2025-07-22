@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/arp.css" />
+    <link rel="stylesheet" type="text/css" href="../css/options.css" />
+    <title></title>
+  </head>
+  <body>
+    <aside id="x-plugin-aside">
+      <div style="flex: 1">
+        <button id="x-plugin-tableSelect">选取表格</button>
+        <button id="x-plugin-imageSelect">选取图片</button>
+        <button id="x-plugin-textSelect">选取文本</button>
+      </div>
+      <div>
+        <button id="x-plugin-downloadBtn">下载全文</button>
+      </div>
+    </aside>
+
+    <article id="x-plugin-article"></article>
+
+    <div id="x-plugin-tool" class="x-plugin-tool">
+      <div class="wrapper">
+        <label>标记</label>
+        <button class="x-plugin-tool-btn" data-type="prescription">成分</button>
+        <button class="x-plugin-tool-btn" data-type="size">试样尺寸</button>
+        <button class="x-plugin-tool-btn" data-type="equipment">测试设备信息</button>
+        <button class="x-plugin-tool-btn" data-type="process">处理工艺</button>
+        <button class="x-plugin-tool-btn" data-type="microstructure">组织</button>
+        <button class="x-plugin-tool-btn" data-type="performance">力学性能</button>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/jszip.min.js"></script>
+    <script src="../js/selector-generator.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="../js/dtd.js"></script>
+    <script src="../js/domUtils.js"></script>
+    <script src="../js/range.js"></script>
+    <script src="../js/scienceDirect.js"></script>
+  </body>
+</html>
