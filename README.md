@@ -8,8 +8,7 @@ It is specifically designed to extract sample-level material data from materials
 This repository provides a customized pipeline for extracting structured material data directly from scientific publications. The extracted data can be used for downstream tasks such as materials informatics, machine learning, and database construction.
 
 📁 Directory Structure
-深色版本
-.
+
 ├── data/
 │   ├── 100_labeled_Papers.zip  # 439 samples from 100 labeled alloy papers
 │   ├── example_literature/     # Example input: full-text HTML from a ScienceDirect paper
